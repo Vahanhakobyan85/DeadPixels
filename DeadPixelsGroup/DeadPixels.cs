@@ -69,6 +69,7 @@ namespace DeadPixelsGroup
             if (row < 0 || col < 0 || row >= monitor.Length || col >= monitor[row].Length)
             {
                 return;
+
             }
 
             if (monitor[row][col] == 0)
